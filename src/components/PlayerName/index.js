@@ -1,12 +1,9 @@
-// import "./style.css"
+import "./style.css";
 
-// function PlayerName() {
-//    return `
-//       <div class="player-name">
-//          <span>Player 1</span>
-//          <span>Player 2</span>
-//       </div>   
-//    `;
-// }
+function PlayerName(content) {
+  return `
+    <p>${content}</p>     
+  `;
+}
 
-// export default PlayerName;
+export default PlayerName;
