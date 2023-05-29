@@ -1,5 +1,4 @@
-/* .player-name {
-   flex-basis: 100%;
-   display: flex;
-   justify-content: space-between;
-} */
+.player-name {
+   color: var(--color-floral-white);
+   font-size: 1rem;
+}
