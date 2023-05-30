@@ -1,11 +1,11 @@
-import "./style.css"
+import "./style.css";
 
-function CardGame() {
-   return /*html*/ `
-      <article class="card-game">
-         <img src="images/alura-pixel.png" alt="Logo da Alura">
-      </article>
-   `;
+function CardGame(icon = "alura-pixel", alt = "logo da Alura") {
+  return /*html*/ `
+    <article class="card-game">
+      <img src="images/${icon}.png" alt="${alt}">
+    </article>
+  `;
 }
 
 export default CardGame;
